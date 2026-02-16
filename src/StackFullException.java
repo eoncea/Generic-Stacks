@@ -1,5 +1,5 @@
 public class StackFullException extends RuntimeException {
-    public StackFullException(String message) {
+    public StackFullException() {
         super("Stack is full!");
     }
 }
