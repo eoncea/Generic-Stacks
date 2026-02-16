@@ -37,6 +37,17 @@ public class GenericStack<T> {
         return element;
 
     }
+    public String list(){
+        String list="";
+
+        for(int i=0; i< array.length; i++){
+            if(array[i] !=null) list += array[i];
+            if(i < top){
+                list += ";";
+            }
+        }
+        return list;
+    }
 
 
 }
