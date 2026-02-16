@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Generic-Stacks:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Generic_Stacks_jar</output-path>
+    <root id="archive" name="Generic-Stacks.jar">
+      <element id="module-output" name="Generic-Stacks" />
+    </root>
+  </artifact>
+</component>
